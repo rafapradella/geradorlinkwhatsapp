@@ -1,0 +1,92 @@
+/* Estilo Global */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8fa;
+    color: #24292f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+}
+
+/* Cabeçalho */
+h1 {
+    font-size: 24px;
+    color: #2f363d;
+}
+
+/* Estilo para o input de telefone */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #d1d5da;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #0366d6;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+/* Resultado do link gerado */
+.link-result {
+    margin-top: 20px;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+/* Estilo para o botão de copiar */
+#copiar {
+    background-color: #28a745;
+    display: none;
+    margin-top: 15px;
+    width: 100%;
+}
+
+#copiar:hover {
+    background-color: #218838;
+}
+
+#copiar:active {
+    background-color: #1e7e34;
+}
+
+/* Estilo para o alerta */
+.alert {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f9ff;
+    color: #005b8e;
+    border: 1px solid #c6e4ff;
+    border-radius: 6px;
+}

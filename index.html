@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Link WhatsApp</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Gerador de Link do WhatsApp</h1>
+        <p>Digite o número de telefone (sem o código do país):</p>
+        <input type="text" id="telefone" placeholder="Ex: 1199992825">
+        <button onclick="gerarLink()">Gerar Link</button>
+
+        <div id="resultado" class="link-result"></div>
+        <button id="copiar" onclick="copiarLink()">Copiar Link</button>
+        <div id="alerta" class="alert" style="display:none;"></div>
+    </div>
+
+    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
